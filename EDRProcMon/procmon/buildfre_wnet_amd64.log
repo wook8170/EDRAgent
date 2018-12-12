@@ -1,0 +1,155 @@
+BUILD: Computing Include file dependencies:
+g:\0020_project\edr_svn\edragent\edrprocmon\procmon: g:\0020_project\edr_svn\edragent\edrprocmon\procmon: TargetTypeMultiple
+g:\0020_project\edr_svn\edragent\edrprocmon\procmon: 
+BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\procmon directory for files to compile.
+oacr invalidate root:amd64fre /autocleanqueue
+1>Compiling g:\0020_project\edr_svn\edragent\edrprocmon\procmon *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS1 NOLINK=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon: TARGETPATH is ..\..\BIN\Release
+1>BUILDMSG: _NT_TARGET_VERSION SET TO WS03
+1> c:\WINDDK\7600.16385.1\Bin\x86\oacr\oacrcl @g:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64\cl.rsp
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.207 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Fo"g:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64/"
+1> /FC
+1> /Iamd64\
+1> /I.
+1> /Ic:\winddk\7600.16385.1\inc\ddk
+1> /I..\Common\drvCppLib
+1> /I..\Common\drvSTLPort
+1> /I..\Common\includes
+1> /Ig:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64
+1> /Ic:\WINDDK\7600.16385.1\inc\api
+1> /Ic:\WINDDK\7600.16385.1\inc\api
+1> /Ic:\WINDDK\7600.16385.1\inc\ddk
+1> /Ic:\WINDDK\7600.16385.1\inc\ddk
+1> /Ic:\WINDDK\7600.16385.1\inc\crt
+1> /D_WIN64
+1> /D_AMD64_
+1> /DAMD64
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0502
+1> /DWINVER=0x0502
+1> /D_WIN32_IE=0x0603
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /DNDEBUG
+1> /D_DLL=1
+1> /DNDEBUG
+1> /DNTDDI_VERSION=0x05020100
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> -cbstring
+1> /W0
+1> /WX
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Z7
+1> /Oxs
+1> /GL
+1> /Z7
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /typedil-
+1> /wd4603
+1> /wd4627
+1> /FIc:\WINDDK\7600.16385.1\inc\api\warning.h
+1> .\main.cpp .\processmonitor.cpp .\utils.cpp .\processhelper.cpp 
+1>main.cpp
+1>processmonitor.cpp
+1>utils.cpp
+1>processhelper.cpp
+1>Linking for g:\0020_project\edr_svn\edragent\edrprocmon\procmon *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon: TARGETPATH is ..\..\BIN\Release
+1>BUILDMSG: _NT_TARGET_VERSION SET TO WS03
+1> c:\WINDDK\7600.16385.1\Bin\x86\oacr\oacrlink /out:..\..\BIN\Release\amd64\NicProcMon_64.sys /machine:amd64 @g:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\hotpatch.obj 
+1>/functionpadmin:6 
+1>/pdbcompress 
+1>/STACK:0x40000,0x1000 
+1>/driver 
+1>/base:0x10000 
+1>/subsystem:native,5.02 
+1>/entry:GsDriverEntry 
+1>/out:..\..\BIN\Release\amd64\NicProcMon_64.sys 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64\main.obj 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64\processmonitor.obj 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64\utils.obj 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64\processhelper.obj 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\BufferOverflowK.lib 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\ntoskrnl.lib 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\hal.lib 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\wmilib.lib 
+1>..\..\lib\Release\amd64\libcppvc7.lib 
+1>c:\winddk\7600.16385.1\lib\win7\amd64\ntstrsafe.lib 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\sehupd.lib 
+1>main.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\hotpatch.obj 
+1>/functionpadmin:6 
+1>/pdbcompress 
+1>/STACK:0x40000,0x1000 
+1>/driver 
+1>/base:0x10000 
+1>/subsystem:native,5.02 
+1>/entry:GsDriverEntry 
+1>/out:..\..\BIN\Release\amd64\NicProcMon_64.sys 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64\main.obj 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64\processmonitor.obj 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64\utils.obj 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\objfre_wnet_amd64\amd64\processhelper.obj 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\BufferOverflowK.lib 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\ntoskrnl.lib 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\hal.lib 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\wmilib.lib 
+1>..\..\lib\Release\amd64\libcppvc7.lib 
+1>c:\winddk\7600.16385.1\lib\win7\amd64\ntstrsafe.lib 
+1>c:\winddk\7600.16385.1\lib\wnet\amd64\sehupd.lib 
+1>Generating code
+1>Finished generating code
+1>libcppvc7.lib(throw.obj) : warning LNK4049: locally defined symbol RaiseException imported
+1>warnings in directory g:\0020_project\edr_svn\edragent\edrprocmon\procmon
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\libcppvc7.lib(throw.obj) : warning LNK4049: locally defined symbol RaiseException imported
+1>libcppvc7.lib(frame.obj) : warning LNK4049: locally defined symbol RaiseException imported
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\libcppvc7.lib(frame.obj) : warning LNK4049: locally defined symbol RaiseException imported

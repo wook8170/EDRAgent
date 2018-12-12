@@ -1,0 +1,19 @@
+TARGETNAME  = NicProcMon_32
+TARGETPATH=..\..\BIN\$(PROJECT_CONFIGURATION_NAME)
+TARGETTYPE  = DRIVER
+
+MSC_WARNING_LEVEL = /W0
+
+INCLUDES = $(BASEDIR)\inc\ddk;          \
+           ..\Common\drvCppLib;         \
+           ..\Common\drvSTLPort;        \
+           ..\Common\includes
+           
+TARGETLIBS = ..\..\lib\$(PROJECT_CONFIGURATION_NAME)\*\libcppvc7.lib
+MSC_WARNING_LEVEL =/W0
+SOURCES     =                           \
+    main.cpp                            \
+    ProcessMonitor.cpp                  \
+    utils.cpp                           \
+    ProcessHelper.cpp
+

@@ -1,0 +1,2 @@
+1>warnings in directory g:\0020_project\edr_svn\edragent\edrprocmon\procmon
+1>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\libcppvc7.lib(throw.obj) : warning LNK4217: locally defined symbol _RaiseException@16 imported in function __CxxThrowEXCEPTION@8

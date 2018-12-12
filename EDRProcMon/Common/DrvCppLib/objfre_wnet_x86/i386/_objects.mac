@@ -1,0 +1,20 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\ptd.obj \
+ $(OBJ_PATH)\$O\strcpy_s.obj \
+ $(OBJ_PATH)\$O\cstub_i386.obj \
+ $(OBJ_PATH)\$O\libcpp.obj \
+ $(OBJ_PATH)\$O\cppstub_i386.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=c:\winddk\7600.16385.1
+OBJECT_ROOT=c:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib
+OBJ_PATH=g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

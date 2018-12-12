@@ -1,0 +1,19 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory for files to compile.
+oacr invalidate root:amd64chk /autocleanqueue
+1>Building generated files in g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS0 NOLINK=1 PASS0ONLY=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib: TARGETPATH is ..\..\..\lib\Debug
+1>BUILDMSG: _NT_TARGET_VERSION SET TO WS03
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Set ARCH 
+1>AMD64
+1>amd64
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Set MSC_VER 
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.207 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>build20933.cpp
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>SET MSC_VER=1500  
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>set /a VERSION=1500 /100 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Set SRC and DEST 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Copy obj-files 
+BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory for files to compile. (2nd Pass)

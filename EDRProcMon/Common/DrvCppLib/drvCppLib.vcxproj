@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A0ED3D5B-BB53-4FB5-BB54-D52F67AD0CA7}</ProjectGuid>
+    <RootNamespace>drvCppLib</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectName>04_KDrvCppLib</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.61030.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\lib\$(Configuration)\i386\</OutDir>
+    <IntDir>$(SolutionDir)\obj\$(Configuration)\$(ProjectName)\i386\</IntDir>
+    <NMakeBuildCommandLine>call "$(SolutionDir)EDRProcMon\ddk_build.bat" $(Configuration) $(ProjectDir) -build </NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>call "$(SolutionDir)EDRProcMon\ddk_build.bat" $(Configuration) $(ProjectDir)</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput>LibCpp.lib</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)\lib\$(Configuration)\amd64\</OutDir>
+    <IntDir>$(SolutionDir)\obj\$(Configuration)\$(ProjectName)\amd64\</IntDir>
+    <NMakeBuildCommandLine>call "$(SolutionDir)EDRProcMon\ddk_build.bat" $(Configuration) $(ProjectDir) 64 -build </NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>call "$(SolutionDir)EDRProcMon\ddk_build.bat" $(Configuration) $(ProjectDir) 64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput>LibCpp.lib</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\lib\$(Configuration)\i386\</OutDir>
+    <IntDir>$(SolutionDir)\obj\$(Configuration)\$(ProjectName)\i386\</IntDir>
+    <NMakeBuildCommandLine>call "$(SolutionDir)EDRProcMon\ddk_build.bat" $(Configuration) $(ProjectDir) -build </NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>call "$(SolutionDir)EDRProcMon\ddk_build.bat" $(Configuration) $(ProjectDir)</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput>LibCpp.lib</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\lib\$(Configuration)\amd64\</OutDir>
+    <IntDir>$(SolutionDir)\obj\$(Configuration)\$(ProjectName)\amd64\</IntDir>
+    <NMakeBuildCommandLine>call "$(SolutionDir)EDRProcMon\ddk_build.bat" $(Configuration) $(ProjectDir) 64 -build </NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>call "$(SolutionDir)EDRProcMon\ddk_build.bat" $(Configuration) $(ProjectDir) 64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput>LibCpp.lib</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cppstub_i386.cpp" />
+    <ClCompile Include="cstub_i386.c" />
+    <ClCompile Include="LibCpp.cpp" />
+    <ClCompile Include="Ptd.c" />
+    <ClCompile Include="strcpy_s.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libcpp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="copy_objects.cmd" />
+    <None Include="makefile" />
+    <None Include="makefile.inc" />
+    <None Include="sources" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

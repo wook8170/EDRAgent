@@ -1,0 +1,59 @@
+﻿   PARAM0 = ""G:\0020_Project\EDR_SVN\EDRAgent\EDRProcMon\ddk_build.bat""
+   PARAM1 = "Release"
+   PARAM2 = "G:\0020_Project\EDR_SVN\EDRAgent\EDRProcMon\Common\DrvCppLib\"
+   PARAM3 = "64"
+   PARAM4 = ""
+  TARGET_CONF = "Release"
+  WDK DETECTED
+  Platform version: 64
+  DDK path is  c:\WINDDK\7600.16385.1
+  Launching OACR monitor
+  path contains nonexistant c:\program files (x86)\microsoft visual studio 11.0\common7\tools\bin, removing
+  path contains nonexistant c:\programdata\anaconda3\library\usr\bin, removing
+  path contains nonexistant c:\windows\system32\openssh\, removing
+  path contains nonexistant c:\program files (x86)\windows kits\8.0\windows performance toolkit\, removing
+  BUILD: Compile and Link for AMD64
+  
+  BUILD: Loading c:\winddk\7600.16385.1\build.dat...
+  
+  BUILD: Computing Include file dependencies:
+  
+  BUILD: Start time: Thu Oct 18 15:02:39 2018
+  BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory for files to compile.
+  
+      g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib 
+  
+  Auto-cleaning queue for 'root:amd64fre' (5 of 9 file(s) removed)
+  Invalidating OACR warning log for 'root:amd64fre'
+  BUILD: Saving c:\winddk\7600.16385.1\build.dat...
+  
+  BUILD: Building generated files in g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory
+  
+  Configuring OACR for 'root:amd64fre' - <OACR on>
+  _NT_TARGET_VERSION SET TO WS03
+  BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory for files to compile. (2nd Pass)
+  
+      g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib 
+  
+      g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib - 5 source files (941 lines)
+  
+  BUILD: Compiling g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory
+  
+  _NT_TARGET_VERSION SET TO WS03
+  Compiling - ptd.c
+  Compiling - strcpy_s.c
+  Compiling - cstub_i386.c
+  Compiling - generating code...
+  Compiling - libcpp.cpp
+  Compiling - cppstub_i386.cpp
+  Compiling - generating code...
+  Building Library - g:\0020_project\edr_svn\edragent\lib\release\amd64\libcppvc7.lib
+  BUILD: Finish time: Thu Oct 18 15:02:57 2018
+  BUILD: Done
+  
+  
+  
+      9 files compiled - 6 Warnings
+  
+      1 library built
+  

@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  dllmain.cpp
+cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+  utils.cpp
+  ServiceController.cpp
+  ProcessMonitor.cpp
+  processdll.cpp
+  Generating Code...
+     Creating library G:\0020_Project\EDR_SVN\EDRAgent\\bin\Debug\i386\EDRProcMonDll_32.lib and object G:\0020_Project\EDR_SVN\EDRAgent\\bin\Debug\i386\EDRProcMonDll_32.exp
+     Creating library G:\0020_Project\EDR_SVN\EDRAgent\\bin\Debug\i386\EDRProcMonDll_32.lib and object G:\0020_Project\EDR_SVN\EDRAgent\\bin\Debug\i386\EDRProcMonDll_32.exp
+  processdll.vcxproj -> G:\0020_Project\EDR_SVN\EDRAgent\\bin\Debug\i386\EDRProcMonDll_32.dll

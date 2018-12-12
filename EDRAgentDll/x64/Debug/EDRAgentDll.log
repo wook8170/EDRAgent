@@ -1,0 +1,20 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  stdafx.cpp
+G:\0020_Project\EDR_SVN\EDRAgent\Include\CommonDef.h(208): warning C4996: 'Json::FastWriter': Use StreamWriterBuilder instead
+          g:\0020_project\edr_svn\edragent\include\jsoncpp\writer.h(168) : see declaration of 'Json::FastWriter'
+  Skipping... (no relevant changes detected)
+  EDRFileHashMgr.cpp
+  EDRAgentKernelHandle.cpp
+  EDRAgentDll.cpp
+  Util.cpp
+  SyncEvent.cpp
+  FileSystem.cpp
+  Dbg.cpp
+  LockGuard.cpp
+  EDRConfig.cpp
+  dllmain.cpp
+G:\0020_Project\EDR_SVN\EDRAgent\Include\CommonDef.h(208): warning C4996: 'Json::FastWriter': Use StreamWriterBuilder instead
+          g:\0020_project\edr_svn\edragent\include\jsoncpp\writer.h(168) : see declaration of 'Json::FastWriter'
+  EDRAgentDll.vcxproj -> G:\0020_Project\EDR_SVN\EDRAgent\\bin\Debug\amd64\EDRAgentDll_64.dll
+  EDRAgentDll.vcxproj -> G:\0020_Project\EDR_SVN\EDRAgent\\bin\Debug\amd64\EDRAgentDll_64.dll
+          1개 파일이 복사되었습니다.

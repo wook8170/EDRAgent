@@ -1,0 +1,81 @@
+{
+	"helper_name" : "IOC",
+	"normal_url" : "http://192.168.198.167:8081/nd/ioc/policy",
+	"refresh_url" : "http://192.168.198.167:8081/nd/ioc/policy/reset",
+	"log_url" : "http://192.168.198.167:8081/nd/log",
+	"items" : 
+		[
+			{
+				"use_policy" : "true",
+				"name" : "IOCfile",
+				"type" : "file",
+				"key" : [
+					"hashes/SHA256",
+					"hashes/MD5",
+					"hashes/SHA1",
+					"path"        
+				],
+				"code" : 1,
+				"log_buffer_count" : 50,
+				"unicode_kernel" : "true",
+				"log_method" : "polling"
+
+			},
+			{
+				"use_policy" : "true",
+				"name" : "IOCProcess",
+				"type" : "process",
+				"key" : [
+					"hashes/SHA256",
+					"hashes/MD5",
+					"hashes/SHA1",
+					"path"        
+				],
+				"code" : 0,
+				"log_buffer_count" : 50,
+				"unicode_kernel" : "false",
+				"log_method" : "polling"
+
+			},
+			{
+				"use_policy" : "true",
+				"name" : "IOCIp",
+				"type" : "ip",
+				"key" : "ip",
+				"code" : 2,
+				"log_buffer_count" : 50,
+				"unicode_kernel" : "false",
+				"log_method" : "polling"
+			},
+			{
+				"use_policy" : "true",
+				"name" : "IOCurl",
+				"type" : "url",
+				"key" : "url",
+				"code" : 3,
+				"log_buffer_count" : 50,
+				"unicode_kernel" : "false",
+				"log_method" : "polling"
+			},
+			{
+				"use_policy" : "true",
+				"name" : "IOCdomain",
+				"type" : "domain",
+				"key" : "domain",
+				"code" : 3,
+				"log_buffer_count" : 50,
+				"unicode_kernel" : "false",
+				"log_method" : "polling"
+			},
+			{
+				"use_policy" : "true",
+				"name" : "IOCRegistry",
+				"type" : "registry",
+				"key" : "registry",
+				"code" : 4,
+				"log_buffer_count" : 50,
+				"unicode_kernel" : "false",
+				"log_method" : "polling"
+			}
+		]
+}

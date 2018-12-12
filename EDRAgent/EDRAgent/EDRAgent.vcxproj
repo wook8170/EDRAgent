@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2C1CCE6C-328F-4230-BF8A-64329D21A373}</ProjectGuid>
+    <RootNamespace>EDRAgent</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>01_UEDRAgent</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\i386</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>EDRAgent</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>EDRAgent</TargetName>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\amd64</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\i386</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>EDRAgent</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>EDRAgent</TargetName>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\amd64</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CURL_STATICLIB;_AFXDLL;WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;..\..\Include;</AdditionalIncludeDirectories>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\Lib32\debug;..\..\bin\debug\i386;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Ws2_32.lib;Wldap32.lib;</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CURL_STATICLIB;_AFXDLL;WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;..\..\Include;</AdditionalIncludeDirectories>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\Lib64\debug;..\..\bin\debug\amd64;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Ws2_32.lib;Wldap32.lib;</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CURL_STATICLIB;_AFXDLL;WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;..\..\Include;</AdditionalIncludeDirectories>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\Lib32\release;..\..\bin\release\i386;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Ws2_32.lib;Wldap32.lib;</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CURL_STATICLIB;_AFXDLL;WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;..\..\Include;</AdditionalIncludeDirectories>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\Lib64\release;..\..\bin\release\amd64;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Ws2_32.lib;Wldap32.lib;</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Include\CommonDef.h" />
+    <ClInclude Include="..\..\Include\EDRAgentDll.h" />
+    <ClInclude Include="..\..\Include\ProcMonCallBackList.h" />
+    <ClInclude Include="..\..\Include\ProcMonCommon.h" />
+    <ClInclude Include="..\..\Include\ProcMonControl.h" />
+    <ClInclude Include="..\..\Include\ProcMonDll.h" />
+    <ClInclude Include="..\..\Include\ProcMonTypes.h" />
+    <ClInclude Include="..\..\Include\ThreadPool\AsyncCallback.h" />
+    <ClInclude Include="..\..\Include\ThreadPool\AsyncCallbackBase.h" />
+    <ClInclude Include="..\..\Include\ThreadPool\Callback.h" />
+    <ClInclude Include="..\..\Include\ThreadPool\CallbackMsg.h" />
+    <ClInclude Include="..\..\Include\ThreadPool\CallbackThread.h" />
+    <ClInclude Include="..\..\Include\ThreadPool\DataTypes.h" />
+    <ClInclude Include="..\..\Include\ThreadPool\Fault.h" />
+    <ClInclude Include="..\..\Include\ThreadPool\LockGuard.h" />
+    <ClInclude Include="..\..\Include\ThreadPool\ThreadMsg.h" />
+    <ClInclude Include="..\..\Include\ThreadPool\ThreadWin.h" />
+    <ClInclude Include="..\..\Include\ThreadPool\UserMsgs.h" />
+    <ClInclude Include="..\..\Include\Util\Dbg.h" />
+    <ClInclude Include="..\..\Include\Util\SyncEvent.h" />
+    <ClInclude Include="..\..\Include\Util\FileSystem.h" />
+    <ClInclude Include="..\..\Include\Util\HashList.h" />
+    <ClInclude Include="..\..\Include\Util\Pipe.h" />
+    <ClInclude Include="..\..\Include\Util\Process.h" />
+    <ClInclude Include="..\..\Include\Util\Registry.h" />
+    <ClInclude Include="..\..\Include\Util\SelfDump.h" />
+    <ClInclude Include="..\..\Include\Util\URLParser.h" />
+    <ClInclude Include="..\..\Include\Util\Util.h" />
+    <ClInclude Include="EDRConfig.h" />
+    <ClInclude Include="EDRKernelHandler.h" />
+    <ClInclude Include="EDRKernelDelegator.h" />
+    <ClInclude Include="EDRPolicyCommander.h" />
+    <ClInclude Include="EDRAgent.h" />
+    <ClInclude Include="EDRAgentWnd.h" />
+    <ClInclude Include="EDRPolicyData.h" />
+    <ClInclude Include="EDRPolicyHelper.h" />
+    <ClInclude Include="EDRPolicyHelperBase.h" />
+    <ClInclude Include="EDRPolicyManager.h" />
+    <ClInclude Include="EDRWorkerThread.h" />
+    <ClInclude Include="EDRWorkerThreadManager.h" />
+    <ClInclude Include="HttpClient\HttpAttribute.h" />
+    <ClInclude Include="HttpClient\HttpClient.h" />
+    <ClInclude Include="HttpClient\HttpClientBuilder.h" />
+    <ClInclude Include="HttpClient\HttpContext.h" />
+    <ClInclude Include="HttpClient\HttpData.h" />
+    <ClInclude Include="IOCPolicyHelperImpl.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="EDRShellNotifyDlg.h" />
+    <ClInclude Include="RESPolicyHelperImpl.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Include\ThreadPool\AsyncCallbackBase.cpp" />
+    <ClCompile Include="..\..\Include\ThreadPool\Fault.cpp" />
+    <ClCompile Include="..\..\Include\ThreadPool\LockGuard.cpp" />
+    <ClCompile Include="..\..\Include\ThreadPool\ThreadWin.cpp" />
+    <ClCompile Include="..\..\Include\Util\Dbg.cpp" />
+    <ClCompile Include="..\..\Include\Util\SyncEvent.cpp" />
+    <ClCompile Include="..\..\Include\Util\FileSystem.cpp" />
+    <ClCompile Include="..\..\Include\Util\HashList.cpp" />
+    <ClCompile Include="..\..\Include\Util\Pipe.cpp" />
+    <ClCompile Include="..\..\Include\Util\Process.cpp" />
+    <ClCompile Include="..\..\Include\Util\Registry.cpp" />
+    <ClCompile Include="..\..\Include\Util\SelfDump.cpp" />
+    <ClCompile Include="..\..\Include\Util\URLParser.cpp" />
+    <ClCompile Include="..\..\Include\Util\Util.cpp" />
+    <ClCompile Include="EDRAgent.cpp" />
+    <ClCompile Include="EDRAgentWnd.cpp" />
+    <ClCompile Include="EDRConfig.cpp" />
+    <ClCompile Include="EDRKernelDelegator.cpp" />
+    <ClCompile Include="EDRPolicyCommander.cpp" />
+    <ClCompile Include="EDRPolicyData.cpp" />
+    <ClCompile Include="EDRPolicyHelperBase.cpp" />
+    <ClCompile Include="EDRPolicyManager.cpp" />
+    <ClCompile Include="EDRWorkerThread.cpp" />
+    <ClCompile Include="EDRWorkerThreadManager.cpp" />
+    <ClCompile Include="HttpClient\HttpClient.cpp" />
+    <ClCompile Include="HttpClient\HttpClientBuilder.cpp" />
+    <ClCompile Include="HttpClient\HttpContext.cpp" />
+    <ClCompile Include="HttpClient\HttpData.cpp" />
+    <ClCompile Include="IOCPolicyHelperImpl.cpp" />
+    <ClCompile Include="EDRShellNotifyDlg.cpp" />
+    <ClCompile Include="RESPolicyHelperImpl.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EDRAgent.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\EDRAgent.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\EDRAgent.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="EDRAgent.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

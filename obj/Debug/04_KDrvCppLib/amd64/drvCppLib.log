@@ -1,0 +1,42 @@
+﻿   PARAM0 = ""G:\0020_Project\EDR_SVN\EDRAgent\EDRProcMon\ddk_build.bat""
+   PARAM1 = "Debug"
+   PARAM2 = "G:\0020_Project\EDR_SVN\EDRAgent\EDRProcMon\Common\DrvCppLib\"
+   PARAM3 = "64"
+   PARAM4 = "-build"
+  TARGET_CONF = "Debug"
+  WDK DETECTED
+  Platform version: 64
+  DDK path is  c:\WINDDK\7600.16385.1
+  OACR monitor running already
+  path contains nonexistant c:\program files (x86)\microsoft visual studio 11.0\common7\tools\bin, removing
+  path contains nonexistant c:\windows\system32\openssh\, removing
+  path contains nonexistant c:\program files (x86)\windows kits\8.0\windows performance toolkit\, removing
+  BUILD: Compile and Link for AMD64
+  
+  BUILD: Loading c:\winddk\7600.16385.1\build.dat...
+  
+  BUILD: Computing Include file dependencies:
+  
+  BUILD: Start time: Thu Aug 02 19:42:30 2018
+  BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory for files to compile.
+  
+      g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib 
+  
+  Invalidating OACR warning log for 'root:amd64chk'
+  BUILD: Saving c:\winddk\7600.16385.1\build.dat...
+  
+  BUILD: Building generated files in g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory
+  
+  Configuring OACR for 'root:amd64chk' - <OACR on>
+  _NT_TARGET_VERSION SET TO WS03
+  BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory for files to compile. (2nd Pass)
+  
+      g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib 
+  
+  BUILD: Finish time: Thu Aug 02 19:42:30 2018
+  BUILD: Done
+  
+  
+  
+      0 files compiled - 3 Warnings
+  

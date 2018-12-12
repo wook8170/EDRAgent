@@ -1,0 +1,52 @@
+﻿   PARAM0 = ""G:\0020_Project\EDR_SVN\EDRAgent\EDRProcMon\ddk_build.bat""
+   PARAM1 = "Release"
+   PARAM2 = "G:\0020_Project\EDR_SVN\EDRAgent\EDRProcMon\procmon\"
+   PARAM3 = "64"
+   PARAM4 = ""
+  TARGET_CONF = "Release"
+  WDK DETECTED
+  Platform version: 64
+  DDK path is  c:\WINDDK\7600.16385.1
+  OACR monitor running already
+  path contains nonexistant c:\program files (x86)\microsoft visual studio 11.0\common7\tools\bin, removing
+  path contains nonexistant c:\programdata\anaconda3\library\usr\bin, removing
+  path contains nonexistant c:\windows\system32\openssh\, removing
+  path contains nonexistant c:\program files (x86)\windows kits\8.0\windows performance toolkit\, removing
+  BUILD: Compile and Link for AMD64
+  
+  BUILD: Loading c:\winddk\7600.16385.1\build.dat...
+  
+  BUILD: Computing Include file dependencies:
+  
+  BUILD: Start time: Thu Oct 18 15:02:59 2018
+  BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\procmon directory for files to compile.
+  
+      g:\0020_project\edr_svn\edragent\edrprocmon\procmon 
+  
+  Auto-cleaning queue for 'root:amd64fre' (4 of 9 file(s) removed)
+  Invalidating OACR warning log for 'root:amd64fre'
+      g:\0020_project\edr_svn\edragent\edrprocmon\procmon - 4 source files (1,347 lines)
+  
+  BUILD: Saving c:\winddk\7600.16385.1\build.dat...
+  
+  BUILD: Compiling g:\0020_project\edr_svn\edragent\edrprocmon\procmon directory
+  
+  Configuring OACR for 'root:amd64fre' - <OACR on>
+  _NT_TARGET_VERSION SET TO WS03
+  Compiling - main.cpp
+  Compiling - processmonitor.cpp
+  Compiling - utils.cpp
+  Compiling - processhelper.cpp
+  BUILD: Linking for g:\0020_project\edr_svn\edragent\edrprocmon\procmon directory
+  
+  _NT_TARGET_VERSION SET TO WS03
+  Linking Executable - g:\0020_project\edr_svn\edragent\bin\release\amd64\nicprocmon_64.sys
+  BUILD: Finish time: Thu Oct 18 15:03:06 2018
+  BUILD: Done
+  
+  
+  
+      6 files compiled - 4 Warnings - 336 LPS
+  
+      1 executable built - 2 Warnings
+  

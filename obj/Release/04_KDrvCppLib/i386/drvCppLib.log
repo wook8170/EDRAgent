@@ -1,0 +1,56 @@
+﻿   PARAM0 = ""G:\0020_Project\EDR_SVN\EDRAgent\EDRProcMon\ddk_build.bat""
+   PARAM1 = "Release"
+   PARAM2 = "G:\0020_Project\EDR_SVN\EDRAgent\EDRProcMon\Common\DrvCppLib\"
+   PARAM3 = ""
+   PARAM4 = ""
+  TARGET_CONF = "Release"
+  Platform version: 32
+  DDK path is  c:\WINDDK\7600.16385.1
+  Launching OACR monitor
+  path contains nonexistant c:\program files (x86)\microsoft visual studio 11.0\common7\tools\bin, removing
+  path contains nonexistant c:\windows\system32\openssh\, removing
+  path contains nonexistant c:\program files (x86)\windows kits\8.0\windows performance toolkit\, removing
+  BUILD: Compile and Link for x86
+  
+  BUILD: Loading c:\winddk\7600.16385.1\build.dat...
+  
+  BUILD: Computing Include file dependencies:
+  
+  BUILD: Start time: Thu Sep 13 13:47:25 2018
+  BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory for files to compile.
+  
+      g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib 
+  
+  Invalidating OACR warning log for 'root:x86fre'
+  BUILD: Saving c:\winddk\7600.16385.1\build.dat...
+  
+  BUILD: Building generated files in g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory
+  
+  Configuring OACR for 'root:x86fre' - <OACR on>
+  _NT_TARGET_VERSION SET TO WS03
+  BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory for files to compile. (2nd Pass)
+  
+      g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib 
+  
+      g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib - 5 source files (941 lines)
+  
+  BUILD: Compiling g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory
+  
+  _NT_TARGET_VERSION SET TO WS03
+  Compiling - ptd.c
+  Compiling - strcpy_s.c
+  Compiling - cstub_i386.c
+  Compiling - generating code...
+  Compiling - libcpp.cpp
+  Compiling - cppstub_i386.cpp
+  Compiling - generating code...
+  Building Library - g:\0020_project\edr_svn\edragent\lib\release\i386\libcppvc7.lib
+  BUILD: Finish time: Thu Sep 13 13:47:29 2018
+  BUILD: Done
+  
+  
+  
+      9 files compiled - 3 Warnings
+  
+      1 library built
+  

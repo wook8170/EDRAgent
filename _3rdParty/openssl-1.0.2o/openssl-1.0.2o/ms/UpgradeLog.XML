@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="nt">
+</Property><Property Name="Solution File" Value="G:\0020_Project\NEDR\0010_USEFUL\openssl-1.0.2o\openssl-1.0.2o\ms\nt.sln">
+</Property><Property Name="Date" Value="2018년 5월 8일 화요일">
+</Property><Property Name="Time" Value="오후 14:41:18">
+</Property></Properties><Event ErrorLevel="0" Project="nt" Source="nt.mak" Description="Converting project file 'G:\0020_Project\NEDR\0010_USEFUL\openssl-1.0.2o\openssl-1.0.2o\ms\nt.mak'.">
+</Event><Event ErrorLevel="2" Project="G:\0020_Project\NEDR\0010_USEFUL\openssl-1.0.2o\openssl-1.0.2o\ms\nt.mak" Source="" Description="The following error has occurred during XML parsing:&#xA;&#xA;File: G:\0020_Project\NEDR\0010_USEFUL\openssl-1.0.2o\openssl-1.0.2o\ms\nt.mak&#xA;Line: 1&#xA;Column: 1&#xA;Error Message:&#xA;잘못된 문서 구문입니다.&#xA;&#xA;The file 'G:\0020_Project\NEDR\0010_USEFUL\openssl-1.0.2o\openssl-1.0.2o\ms\nt.mak' has failed to load.">
+</Event><Event ErrorLevel="2" Project="nt" Source="nt.mak" Description="xs:choice 끝 태그가 xs:sequence 시작 태그와 일치하지 않습니다.&#xA;">
+</Event><Event ErrorLevel="2" Project="nt" Source="nt.mak" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="nt" Source="nt.mak" Description="Not Converted">
+</Event><Event ErrorLevel="2" Project="" Source="nt.mak" Description="Project upgrade failed.">
+</Event></UpgradeLog>

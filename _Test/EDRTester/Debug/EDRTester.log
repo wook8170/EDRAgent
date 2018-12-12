@@ -1,0 +1,40 @@
+﻿  stdafx.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : see previous definition of 'INT8_MIN'
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : see previous definition of 'INT16_MIN'
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : see previous definition of 'INT32_MIN'
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : see previous definition of 'INT8_MAX'
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : see previous definition of 'INT16_MAX'
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : see previous definition of 'INT32_MAX'
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : see previous definition of 'UINT8_MAX'
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : see previous definition of 'UINT16_MAX'
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : see previous definition of 'UINT32_MAX'
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : see previous definition of 'INT64_MIN'
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : see previous definition of 'INT64_MAX'
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : see previous definition of 'UINT64_MAX'
+g:\0020_project\edr_svn\edragent\include\commondef.h(208): warning C4996: 'Json::FastWriter': Use StreamWriterBuilder instead
+          g:\0020_project\edr_svn\edragent\include\jsoncpp\writer.h(168) : see declaration of 'Json::FastWriter'
+  EDRTesterDlg.cpp
+  EDRTester.cpp
+  Util.cpp
+g:\0020_project\edr_svn\edragent\include\util\util.cpp(222): warning C4018: '<' : signed/unsigned mismatch
+g:\0020_project\edr_svn\edragent\include\util\util.cpp(233): warning C4018: '<' : signed/unsigned mismatch
+  Registry.cpp
+  Pipe.cpp
+  Dbg.cpp
+  Generating Code...
+libeay32.lib(mem_clr.obj) : warning LNK4099: PDB 'lib.pdb' was not found with 'libeay32.lib(mem_clr.obj)' or at 'G:\0020_Project\EDR_SVN\EDRAgent\_Test\EDRTester\Debug\lib.pdb'; linking object as if no debug info
+libeay32.lib(md5_dgst.obj) : warning LNK4099: PDB 'lib.pdb' was not found with 'libeay32.lib(md5_dgst.obj)' or at 'G:\0020_Project\EDR_SVN\EDRAgent\_Test\EDRTester\Debug\lib.pdb'; linking object as if no debug info
+libeay32.lib(sha256.obj) : warning LNK4099: PDB 'lib.pdb' was not found with 'libeay32.lib(sha256.obj)' or at 'G:\0020_Project\EDR_SVN\EDRAgent\_Test\EDRTester\Debug\lib.pdb'; linking object as if no debug info
+  EDRTester.vcxproj -> G:\0020_Project\EDR_SVN\EDRAgent\_Test\EDRTester\Debug\EDRTester.exe

@@ -1,0 +1,62 @@
+{
+	"helper_name" : "RESPONSE",
+	"normal_url" : "http://192.168.198.167:8081/nd/res/policy",
+	"refresh_url" : "http://192.168.198.167:8081/nd/res/policy/reset",
+	"items" : [
+		{
+			"use_policy" : "true",
+			"sub_url" : "file",
+			"name" : "RESfile",
+			"type" : "file",
+			"key" : [
+				"hashes/SHA256",
+				"hashes/MD5",
+				"hashes/SHA1",
+				"path"        
+			],
+			"code" : 1, 
+			"log_buffer_count" : 50,
+			"unicode_kernel" : "true",
+			"log_method" : "polling"
+
+		},
+		{
+			"use_policy" : "true",
+			"sub_url" : "proc",
+			"name" : "RESProcess",
+			"type" : "process",
+			"key" : [
+				"hashes/SHA256",
+				"hashes/MD5",
+				"hashes/SHA1",
+				"path"        
+			],
+			"code" : 0,
+			"log_buffer_count" : 50,
+			"unicode_kernel" : "false",
+			"log_method" : "polling"
+	},
+		{
+			"use_policy" : "true",
+			"sub_url" : "ip",
+			"name" : "RESNetwork",
+			"type" : "ip",
+			"key" : "ip",
+			"code" : 2,
+			"log_buffer_count" : 50,
+			"unicode_kernel" : "false",
+			"log_method" : "polling"
+		},
+		{
+			"use_policy" : "true",
+			"sub_url" : "reg",
+			"name" : "RESRegistry",
+			"type" : "registry",
+			"key" : "registry",
+			"code" : 4,
+			"log_buffer_count" : 50,
+			"unicode_kernel" : "true",
+			"log_method" : "polling"
+		}
+	]
+}

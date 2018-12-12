@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+<OACRDEFECTCOUNT>2</OACRDEFECTCOUNT>
+<OACRERRORCOUNT>0</OACRERRORCOUNT>
+<DEFECT _seq="1"><SFA><LINE>104</LINE><COLUMN>61</COLUMN><FILENAME>utils.cpp</FILENAME><FILEPATH>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>utils::GetSystemProcessInformation</FUNCTION><FUNCLINE>89</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="2"><SFA><LINE>208</LINE><COLUMN>47</COLUMN><FILENAME>utils.cpp</FILENAME><FILEPATH>g:\0020_project\edr_svn\edragent\edrprocmon\procmon\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>utils::GetProcessImageFileName</FUNCTION><FUNCLINE>180</FUNCLINE><PATH/></DEFECT>
+</DEFECTS>

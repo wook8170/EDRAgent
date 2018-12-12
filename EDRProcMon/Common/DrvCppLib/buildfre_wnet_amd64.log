@@ -1,0 +1,176 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory for files to compile.
+oacr invalidate root:amd64fre /autocleanqueue
+1>Building generated files in g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS0 NOLINK=1 PASS0ONLY=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib: TARGETPATH is ..\..\..\lib\Release
+1>BUILDMSG: _NT_TARGET_VERSION SET TO WS03
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Set ARCH 
+1>AMD64
+1>amd64
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Set MSC_VER 
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.207 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>build31728.cpp
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>SET MSC_VER=1500  
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>set /a VERSION=1500 /100 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Set SRC and DEST 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Copy obj-files 
+BUILD: Examining g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib directory for files to compile. (2nd Pass)
+1>Compiling g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS1 NOLINK=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib: TARGETPATH is ..\..\..\lib\Release
+1>BUILDMSG: _NT_TARGET_VERSION SET TO WS03
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Set ARCH 
+1>AMD64
+1>amd64
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Set MSC_VER 
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.207 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>build31738.cpp
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>SET MSC_VER=1500  
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>set /a VERSION=1500 /100 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Set SRC and DEST 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib>rem Copy obj-files 
+1> c:\WINDDK\7600.16385.1\Bin\x86\oacr\oacrcl @g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64\cl.rsp
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.207 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Fo"g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64/"
+1> /FC
+1> /MT
+1> /U_MT
+1> /Iamd64\
+1> /I.
+1> /Ic:\WINDDK\7600.16385.1\inc\ddk
+1> /Ic:\winddk\7600.16385.1\inc\crt
+1> /I..\drvStlPort
+1> /Ig:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64
+1> /Ic:\WINDDK\7600.16385.1\inc\api
+1> /Ic:\WINDDK\7600.16385.1\inc\api
+1> /Ic:\WINDDK\7600.16385.1\inc\ddk
+1> /Ic:\WINDDK\7600.16385.1\inc\ddk
+1> /Ic:\WINDDK\7600.16385.1\inc\crt
+1> /D_WIN64
+1> /D_AMD64_
+1> /DAMD64
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0502
+1> /DWINVER=0x0502
+1> /D_WIN32_IE=0x0603
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /DNDEBUG
+1> /DDDK_3790_USED=0
+1> /DNTDDI_VERSION=0x05020100
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> -cbstring
+1> /W0
+1> /WX
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Z7
+1> /Oxs
+1> /GL
+1> /Z7
+1> /EHa
+1> /GL-
+1>cl : Command line warning D9025 : overriding '/GL' with '/GL-'
+1>warnings in directory g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\cl : warning D9025 : overriding '/GL' with '/GL-'
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /typedil-
+1> /wd4603
+1> /wd4627
+1> /FIc:\WINDDK\7600.16385.1\inc\api\warning.h
+1> .\ptd.c .\strcpy_s.c .\cstub_i386.c 
+1>ptd.c
+1>strcpy_s.c
+1>cstub_i386.c
+1>Generating Code...
+1> c:\WINDDK\7600.16385.1\Bin\x86\oacr\oacrcl @g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64\cl.rsp
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.207 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Fo"g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64/"
+1> /FC
+1> /MT
+1> /U_MT
+1> /Iamd64\
+1> /I.
+1> /Ic:\WINDDK\7600.16385.1\inc\ddk
+1> /Ic:\winddk\7600.16385.1\inc\crt
+1> /I..\drvStlPort
+1> /Ig:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64
+1> /Ic:\WINDDK\7600.16385.1\inc\api
+1> /Ic:\WINDDK\7600.16385.1\inc\api
+1> /Ic:\WINDDK\7600.16385.1\inc\ddk
+1> /Ic:\WINDDK\7600.16385.1\inc\ddk
+1> /Ic:\WINDDK\7600.16385.1\inc\crt
+1> /D_WIN64
+1> /D_AMD64_
+1> /DAMD64
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0502
+1> /DWINVER=0x0502
+1> /D_WIN32_IE=0x0603
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /DNDEBUG
+1> /DDDK_3790_USED=0
+1> /DNTDDI_VERSION=0x05020100
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> -cbstring
+1> /W0
+1> /WX
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Z7
+1> /Oxs
+1> /GL
+1> /Z7
+1> /EHa
+1> /GL-
+1>cl : Command line warning D9025 : overriding '/GL' with '/GL-'
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\cl : warning D9025 : overriding '/GL' with '/GL-'
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /typedil-
+1> /wd4603
+1> /wd4627
+1> /FIc:\WINDDK\7600.16385.1\inc\api\warning.h
+1> .\libcpp.cpp .\cppstub_i386.cpp 
+1>libcpp.cpp
+1>cppstub_i386.cpp
+1>Generating Code...
+1> c:\WINDDK\7600.16385.1\Bin\x86\oacr\oacrlink /lib /out:..\..\..\lib\Release\amd64\libcppvc7.lib /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 ..\..\..\obj\fre\amd64\LibCpp\eh_obj\*  /nodefaultlib /machine:amd64 /ltcg @g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64\lib.rsp
+1>Microsoft (R) Library Manager Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64\ptd.obj 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64\strcpy_s.obj 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64\cstub_i386.obj 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64\libcpp.obj 
+1>g:\0020_project\edr_svn\edragent\edrprocmon\common\drvcpplib\objfre_wnet_amd64\amd64\cppstub_i386.obj 

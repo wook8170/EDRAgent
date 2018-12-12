@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     Creating library G:\0020_Project\EDR_SVN\EDRAgent\\bin\Release\amd64\EDRAgentDll_64.lib and object G:\0020_Project\EDR_SVN\EDRAgent\\bin\Release\amd64\EDRAgentDll_64.exp
+  Generating code
+  Finished generating code
+libeay32.lib(mem_clr.obj) : warning LNK4099: PDB 'lib.pdb' was not found with 'libeay32.lib(mem_clr.obj)' or at 'G:\0020_Project\EDR_SVN\EDRAgent\bin\Release\amd64\lib.pdb'; linking object as if no debug info
+libeay32.lib(md5_dgst.obj) : warning LNK4099: PDB 'lib.pdb' was not found with 'libeay32.lib(md5_dgst.obj)' or at 'G:\0020_Project\EDR_SVN\EDRAgent\bin\Release\amd64\lib.pdb'; linking object as if no debug info
+libeay32.lib(sha256.obj) : warning LNK4099: PDB 'lib.pdb' was not found with 'libeay32.lib(sha256.obj)' or at 'G:\0020_Project\EDR_SVN\EDRAgent\bin\Release\amd64\lib.pdb'; linking object as if no debug info
+  EDRAgentDll.vcxproj -> G:\0020_Project\EDR_SVN\EDRAgent\\bin\Release\amd64\EDRAgentDll_64.dll
+          1개 파일이 복사되었습니다.

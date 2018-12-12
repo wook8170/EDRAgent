@@ -1,0 +1,19 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\main.obj \
+ $(OBJ_PATH)\$O\processmonitor.obj \
+ $(OBJ_PATH)\$O\utils.obj \
+ $(OBJ_PATH)\$O\processhelper.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=c:\winddk\7600.16385.1
+OBJECT_ROOT=c:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=g:\0020_project\edr_svn\edragent\edrprocmon\procmon
+OBJ_PATH=g:\0020_project\edr_svn\edragent\edrprocmon\procmon
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

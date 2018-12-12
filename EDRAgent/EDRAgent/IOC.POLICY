@@ -1,0 +1,198 @@
+[
+	{
+		"command" : "block",
+		"hashes" : 
+		{
+			"MD5" : "77819EDKIE8VJDJF73NSDVDG92A7138",
+			"SHA1" : "77719EDKIE8VJDJF73NSDVDG92A7138"
+		},
+		"id" : "2003967225922777",
+		"path" : "C:\\Program Files\\Mozilla Firefox\\firefox3.exe",
+		"pid" : 33331,
+		"ppid" : 47901,
+		"reason" : "process reason #4",
+		"source" : "VST",
+		"status" : "C",
+		"type" : "process"
+	},
+	{
+		"command" : "block",
+		"hashes" : 
+		{
+			"SHA256" : "E6BB1E7BA290868606E9C8983F2F0C68EFC29455A9D4B7C0C9E0FC70F6626183"
+		},
+		"id" : "2003967228358440",
+		"path" : "c:\\users\\wook8170\\appdata\\local\\microsoft\\teams\\current\\teams.exe ",
+		"pid" : 88887,
+		"ppid" : 88888,
+		"reason" : "\uc7a5\uc6b1\ubd80\uc7a5 \uc694\uccad\ub370\uc774\ud130",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "process"
+	},
+	{
+		"command" : "block",
+		"hashes" : 
+		{
+			"SHA1" : "88419EDKIE8VJDJF73NSDVDG92A7138",
+			"SHA256" : "88819EDKIE8VJDJF73NSDVDG92A7138"
+		},
+		"id" : "2003967228358450",
+		"path" : "C:\\Program Files\\Mozilla Firefox\\firefox4.exe",
+		"pid" : 22223,
+		"ppid" : 95123,
+		"reason" : "process reason #5",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "process"
+	},
+	{
+		"command" : "block",
+		"id" : "2004027806450333",
+		"path" : "C:\\Program Files\\notepad#111.exe",
+		"reason" : "file ccccc",
+		"source" : "VST",
+		"status" : "C",
+		"type" : "file"
+	},
+	{
+		"command" : "block",
+		"id" : "2004027806489333",
+		"path" : "C:\\Program FIles\\antivirus#222.exe",
+		"reason" : "file ddddd",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "file"
+	},
+	{
+		"command" : "block",
+		"id" : "2004080219116999",
+		"ip" : "192.168.77.23",
+		"ip_type" : "IP4",
+		"port" : 6756,
+		"reason" : "malicious net#AAA",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "ip"
+	},
+	{
+		"command" : "block",
+		"id" : "2004080219169888",
+		"ip" : "192.168.33.124",
+		"ip_type" : "IP4",
+		"port" : 1234,
+		"reason" : "malicious net#BBB",
+		"source" : "VST",
+		"status" : "C",
+		"type" : "ip"
+	},
+	{
+		"command" : "block",
+		"id" : "2004080219116132",
+		"reason" : "malicious net#A",
+		"source" : "VST",
+		"status" : "C",
+		"type" : "url",
+		"url" : "http://www.nicstooch.com:8080/sp"
+	},
+	{
+		"command" : "block",
+		"id" : "2004080219169615",
+		"reason" : "malicious net#B",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "url",
+		"url" : "https://navaro.co.kr:433/test/auth?a=val1"
+	},
+	{
+		"command" : "block",
+		"id" : "2004080219191549",
+		"reason" : "malicious net#A",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "url",
+		"url" : "http://domainu.pe.kr/heap"
+	},
+	{
+		"command" : "block",
+		"domain" : "www.google.com",
+		"id" : "2004080219116130",
+		"reason" : "malicious net#A",
+		"source" : "VST",
+		"status" : "C",
+		"type" : "domain"
+	},
+	{
+		"command" : "block",
+		"domain" : "www.nicstooch.com",
+		"id" : "2004080219116132",
+		"reason" : "malicious net#A",
+		"source" : "VST",
+		"status" : "C",
+		"type" : "domain"
+	},
+	{
+		"command" : "block",
+		"domain" : "nate.com",
+		"id" : "2004080219169611",
+		"reason" : "malicious net#B",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "domain"
+	},
+	{
+		"command" : "block",
+		"domain" : "daum.net",
+		"id" : "2004080219169612",
+		"reason" : "malicious net#B",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "domain"
+	},
+	{
+		"command" : "block",
+		"domain" : "navaro.co.kr",
+		"id" : "2004080219169615",
+		"reason" : "malicious net#B",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "domain"
+	},
+	{
+		"command" : "block",
+		"domain" : "naver.com",
+		"id" : "2004080219191543",
+		"reason" : "malicious net#A",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "domain"
+	},
+	{
+		"command" : "block",
+		"domain" : "domainu.pe.kr",
+		"id" : "2004080219191549",
+		"reason" : "malicious net#A",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "domain"
+	},
+	{
+		"command" : "delete",
+		"id" : "2004058359376966",
+		"reason" : "registry cccc",
+		"registry" : "HKLM\\SOFTWARE\\Microsoft\\Windwos\\CurrentVersion\\Run\\key#3",
+		"source" : "VST",
+		"status" : "U",
+		"type" : "registry"
+	},
+	{
+		"command" : "delete",
+		"id" : "2004058359427133",
+		"reason" : "registry dddd",
+		"registry" : "HKLM\\SOFTWARE\\Microsoft\\Windwos\\CurrentVersion\\Run\\key#4",
+		"source" : "SX2",
+		"status" : "C",
+		"type" : "registry"
+	}
+]
+

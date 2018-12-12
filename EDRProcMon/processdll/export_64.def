@@ -1,0 +1,10 @@
+LIBRARY	"EDRProcMonDll_64"
+
+EXPORTS
+    Init
+    Deinit
+    Install
+    GetStatus
+    Start
+    Stop
+    Uninstall

@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  dllmain.cpp
+  processdll.cpp
+  ProcessMonitor.cpp
+  ServiceController.cpp
+  utils.cpp
+ProcessMonitor.cpp(10): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_vsnprintf'
+     Creating library G:\0020_Project\EDR_SVN\EDRAgent\\bin\Release\i386\EDRProcMonDll_32.lib and object G:\0020_Project\EDR_SVN\EDRAgent\\bin\Release\i386\EDRProcMonDll_32.exp
+  Generating code
+  Finished generating code
+  processdll.vcxproj -> G:\0020_Project\EDR_SVN\EDRAgent\\bin\Release\i386\EDRProcMonDll_32.dll
